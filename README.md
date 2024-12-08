@@ -15,8 +15,11 @@ Outline:
     - finite element method problem
 
 
-How we're going to deploy techniques for students to practice in.
-
+types of problems:
 - Fill in the code.
 - Explain why the piece of code works/doesn't work...
+<<<<<<< HEAD
 - Compare your solution with getfem.
+=======
+-
+>>>>>>> 0cedeb28aacb619840cd7da21bdac62bd88f85ea
