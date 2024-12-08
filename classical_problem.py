@@ -1,5 +1,4 @@
 from sympy import *
-import matplotlib.pyplot as plt
 
 # Just to make it look pretty
 latexReplaceRules = {
@@ -17,21 +16,21 @@ init_printing(latex_printer=latexNew)
 
 # Declaring symbolic variables and functions:
 g = Symbol('g')
-m = Symbol('m')
-t = Symbol('t')
+m = 
+t = 
 theta = Function("theta")(t)
-phi = Function("phi")(t)
+phi = 
 
 # position vector components
 Rx = sin(theta)*cos(phi)
-Ry = sin(theta)*sin(phi)
-Rz = cos(theta)
+Ry = 
+Rz = 
 
 # finding Energies
-R_dot_squared = simplify(diff(Rx,t)**2 + diff(Ry,t)**2 + diff(Rz,t)**2)
-R_dot_squared
-T = (1/2)*m*R_dot_squared
-V = -m*g*Rz
+V_squared = simplify()
+V_squared
+T = (1/2)*m*V_squared  # kinetic energy
+V = -m*g*Rz  # potential energy
 L = T-V
 L
 
@@ -39,15 +38,16 @@ L
 '''
 phi is cyclic so there is a conserved quantity - angular momentum
 '''
-l_z = simplify(diff(L,diff(phi,t)))
+l_z = 
 l_z
 '''
 for theta, we can substitute in our conserved quantity 
 '''
 l = Symbol('l')
 L = -g*m*cos(theta) + 0.5*(l**2)/(m*sin(theta)**2) + 0.5*diff(theta,t)**2
-diff((diff(L,(diff(theta,t)))),t)-diff(L,theta)
+# using the new Lagrangian, find the new equation of motion for theta via the algorithm above.
+
 '''
-when we multiply through by theta_dot, we realize another conserved quantity - energy
+If we multiply through by theta_dot (i.e. 'diff(theta,t)'), we realize another conserved quantity - energy
 '''
-E = integrate(diff(theta,t)*(diff((diff(L,(diff(theta,t)))),t)-diff(L,theta)),t)
+E = integrate(,t)  # input diff(theta,t)*eqn of motion for theta
