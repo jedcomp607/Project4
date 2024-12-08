@@ -19,4 +19,4 @@ How we're going to deploy techniques for students to practice in.
 
 - Fill in the code.
 - Explain why the piece of code works/doesn't work...
--
+- Compare your solution with getfem.
