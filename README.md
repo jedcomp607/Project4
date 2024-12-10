@@ -12,14 +12,5 @@ Outline:
     - integrals
     - derivatives
     - linear algebra operations
-    - finite element method problem
+    - finite element method
 
-
-types of problems:
-- Fill in the code.
-- Explain why the piece of code works/doesn't work...
-<<<<<<< HEAD
-- Compare your solution with getfem.
-=======
--
->>>>>>> 0cedeb28aacb619840cd7da21bdac62bd88f85ea
