@@ -13,4 +13,5 @@ Outline:
     - derivatives
     - linear algebra operations
     - finite element method
-
+ 
+Great video explaining finite element method: https://youtu.be/1wSE6iQiScg?feature=shared
